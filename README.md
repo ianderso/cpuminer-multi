@@ -78,6 +78,7 @@ Build
 =====
 
 #### Basic *nix build instructions:
+ * sudo dnf install curl-devel libcurl glib-devel libtool automake openssl-devel
  * ./autogen.sh	# only needed if building from git repo
  * ./nomacro.pl	# only needed if building on Mac OS X or with Clang
  * ./configure CFLAGS="*-march=native*"
